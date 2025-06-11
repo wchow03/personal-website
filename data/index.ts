@@ -54,7 +54,7 @@ export const projects = [
     {
         id: 1,
         title: "Bad Chilli Peppers",
-        desc: "Game made in cpsc 427 using C++ and OpenGL",
+        desc: "Worked in a team of five to create a 2D game with unique mechanics, enemies, and levels.",
         img: "/projects/bad-chilli-peppers.png",
         iconLists: ["/languages/C++.svg", "/technologies/OpenGL.svg"],
         // UPDATE BAD CHILLI PEPPERS LATER
@@ -63,7 +63,7 @@ export const projects = [
     {
         id: 2,
         title: "Steam Games Database",
-        desc: "Visualize steam games database",
+        desc: "Worked in a team of four to create a visualization where users are able to explore top owned games on steam.",
         img: "/projects/steamdb.png",
         iconLists: ["/languages/TypeScript.svg", "/technologies/D3.js.svg"],
         link: "https://steamgamesdb.netlify.app/"
@@ -71,7 +71,7 @@ export const projects = [
     {
         id: 3,
         title: "Streaming Service Application",
-        desc: "Search up movies and TV shows by filtering streaming services",
+        desc: "Worked with a partner to create an application where users can view content offered from various streaming services.",
         img: "/projects/streaming-service.png",
         iconLists: ["/languages/TypeScript.svg", "/technologies/React.svg", "/technologies/TailwindCSS.svg", "/languages/MySQL.svg"],
         link: "https://www.youtube.com/watch?v=bYjsFGQ3XeY"
@@ -79,7 +79,7 @@ export const projects = [
     {
         id: 4,
         title: "MineSweeper clone",
-        desc: "MineSweeper clone",
+        desc: "Developed a Minesweeper clone after mastering the game.",
         img: "/projects/minesweeper.png",
         iconLists: ["/languages/HTML5.svg", "/languages/CSS3.svg", "/languages/JavaScript.svg"],
         link: "https://wchow03-minesweeper.netlify.app/"
