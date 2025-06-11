@@ -72,7 +72,7 @@ export const WavyBackground = ({
     nt += getSpeed();
     for (i = 0; i < n; i++) {
       ctx.beginPath();
-      ctx.lineWidth = waveWidth || 50;
+      ctx.lineWidth = waveWidth || 70;
       ctx.strokeStyle = waveColors[i % waveColors.length];
       for (x = 0; x < w; x += 5) {
         var y = noise(x / 800, 0.3 * i, nt) * 100;
@@ -85,6 +85,8 @@ export const WavyBackground = ({
 
   let animationId: number;
   const render = () => {
+    ctx.clearRect(0, 0, w, h);
+
     ctx.fillStyle = backgroundFill || "black";
     ctx.globalAlpha = waveOpacity || 0.5;
     ctx.fillRect(0, 0, w, h);
@@ -117,7 +119,7 @@ export const WavyBackground = ({
       )}
     >
       <canvas
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-5"
         ref={canvasRef}
         id="canvas"
         style={{
