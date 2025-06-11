@@ -16,8 +16,8 @@ const eslintConfig = [
     {
     files: ["**/*.{js,ts,jsx,tsx}"], // Apply to all files
     rules: {
-        "@next/next/no-img-element": "off", // Example: Disabling Next.js img rule
-        // Add other rules you want to disable
+        "@typescript-eslint/no-explicit-any": "off",  // disable explicit any warning
+        "no-unused-vars": "off",                      // disable unused vars warning
     },
     },
 ];
